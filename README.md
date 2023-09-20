@@ -1,0 +1,1 @@
+A quickstart Maven archetype for Java 21.
