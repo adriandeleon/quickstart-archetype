@@ -9,13 +9,14 @@
 
   <name>${artifactId}</name>
   <description>Description Goes Here</description>
-  <url>https://maven.apache.org</url>
+  <url>${url}</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>21</maven.compiler.source>
-    <maven.compiler.target>21</maven.compiler.target>
-    <app.mainClass>org.example.App</app.mainClass>
+    <java.version>21</java.version>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
+    <app.mainClass>${groupId}.${artifactId}.App</app.mainClass>
   </properties>
 
   <dependencies>
@@ -99,22 +100,12 @@
           </execution>
         </executions>
       </plugin>
-
       <plugin>
         <groupId>org.gaul</groupId>
         <artifactId>modernizer-maven-plugin</artifactId>
-        <version>2.4.0</version>
-        <executions>
-          <execution>
-            <id>modernizer</id>
-            <phase>verify</phase>
-            <goals>
-              <goal>modernizer</goal>
-            </goals>
-          </execution>
-        </executions>
+        <version>2.7.0</version>
         <configuration>
-          <javaVersion>${maven.compiler.target}</javaVersion>
+          <javaVersion>${java.version}</javaVersion>
         </configuration>
       </plugin>
     </plugins>
