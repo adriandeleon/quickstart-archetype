@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/adriandeleon/qucikstart-archetype/actions/workflows/maven.yml/badge.svg)](https://github.com/adriandeleon/quickstart-archetype/actions/workflows/maven.yml)
+
 A quickstart Maven archetype for Java 21.
 
 A simple but opinionated quickstart [archetype](https://maven.apache.org/guides/introduction/introduction-to-archetypes.html) with the following libraries:
