@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.example</groupId>
+  <groupId>me.adriandeleon</groupId>
   <artifactId>quickstart-archetype</artifactId>
-  <version>2.0-SNAPSHOT</version>
+  <version>2.0.1</version>
   <packaging>maven-archetype</packaging>
 
   <name>quickstart-archetype</name>
@@ -28,5 +28,7 @@
     </pluginManagement>
   </build>
 
-  <url>https://maven.apache.org</url>
+  <description>A simple but opinionated quickstart archetype with the following libraries: JUnit5, assertj, Lombok, apache-lang3 and log4j</description>
+
+  <url>https://github.com/adriandeleon/quickstart-archetype</url>
 </project>

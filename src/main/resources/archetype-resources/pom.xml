@@ -8,6 +8,7 @@
   <packaging>jar</packaging>
 
   <name>${artifactId}</name>
+  <description>Description Goes Here</description>
   <url>https://maven.apache.org</url>
 
   <properties>
@@ -21,7 +22,7 @@
     <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
     <!-- https://junit.org/junit5/-->
     <!-- JUnit 5 is the next generation of JUnit. The goal is to create an up-to-date foundation
-     for developer-side testing on the JVM-->
+         for developer-side testing on the JVM-->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-engine</artifactId>
@@ -31,7 +32,7 @@
     <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
     <!-- https://assertj.github.io/doc/-->
     <!-- AssertJ is a Java library that provides a rich set of assertions and truly helpful error messages,
-     improves test code readability, and is designed to be super easy to use within your favorite IDE.-->
+         improves test code readability, and is designed to be super easy to use within your favorite IDE.-->
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
@@ -41,11 +42,38 @@
     <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
     <!-- https://commons.apache.org/proper/commons-lang/-->
     <!-- The standard Java libraries fail to provide enough methods for manipulation of its core classes.
-     Apache Commons Lang provides these extra methods.-->
+         Apache Commons Lang provides these extra methods.-->
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
       <version>3.12.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+    <!-- https://logging.apache.org/log4j/2.x/ -->
+    <!-- Apache Log4j 2 is an upgrade to Log4j that provides significant improvements over its predecessor -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.20.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+    <!-- https://logging.apache.org/log4j/2.x/ -->
+    <!-- Apache Log4j 2 is an upgrade to Log4j that provides significant improvements over its predecessor -->
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.20.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok-->
+    <!-- https://projectlombok.org/-->
+    <!-- Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
+         Never write another getter or equals method again; with one annotation, your class has a fully featured builder,
+         Automate your logging variables, and much more.-->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.30</version>
+      <optional>true</optional>
     </dependency>
   </dependencies>
 
