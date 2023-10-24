@@ -20,12 +20,13 @@ mvn install
 To use the archetype, run the following:
 
 ```shell
-mvn archetype:generate -DarchetypeGroupId=me.adriandeleon
+mvn archetype:generate
+-DarchetypeGroupId=me.adriandeleon
 -DarchetypeArtifactId=quickstart-archetype
--DarchetypeVersion=2.0.3
+-DarchetypeVersion=2.0.4
 -DgroupId=org.example
 -DartifactId=myApp
--Dversion=1.0-SNAPSHOT
+-Dversion=1.0.0-SNAPSHOT
 ```
 
 
