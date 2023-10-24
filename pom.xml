@@ -1,34 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>me.adriandeleon</groupId>
-  <artifactId>quickstart-archetype</artifactId>
-  <version>2.0.2</version>
-  <packaging>maven-archetype</packaging>
+    <groupId>me.adriandeleon</groupId>
+    <artifactId>quickstart-archetype</artifactId>
+    <version>2.0.3</version>
+    <packaging>maven-archetype</packaging>
 
-  <name>quickstart-archetype</name>
+    <name>quickstart-archetype</name>
 
-  <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.archetype</groupId>
-        <artifactId>archetype-packaging</artifactId>
-        <version>3.2.1</version>
-      </extension>
-    </extensions>
+    <description>A simple but opinionated quickstart archetype with the following libraries: JUnit5, assertj, Lombok,
+        apache-lang3, log4j and modernizer.
+    </description>
 
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <artifactId>maven-archetype-plugin</artifactId>
-          <version>3.2.1</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
+    <url>https://github.com/adriandeleon/quickstart-archetype</url>
 
-  <description>A simple but opinionated quickstart archetype with the following libraries: JUnit5, assertj, Lombok, apache-lang3 and log4j</description>
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.archetype</groupId>
+                <artifactId>archetype-packaging</artifactId>
+                <version>3.2.1</version>
+            </extension>
+        </extensions>
 
-  <url>https://github.com/adriandeleon/quickstart-archetype</url>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>3.2.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
 </project>
