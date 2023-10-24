@@ -2,7 +2,7 @@
 
 A quickstart Maven archetype for Java 21.
 
-Latest version: 2.0.3
+Latest version: 2.0.4
 
 A simple but opinionated quickstart [archetype](https://maven.apache.org/guides/introduction/introduction-to-archetypes.html) with the following libraries:
 * [JUnit5]( https://junit.org/junit5/)
