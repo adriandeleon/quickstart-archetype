@@ -35,4 +35,13 @@
         </pluginManagement>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub adriandeleon Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/adriandeleon/quickstart-archetype</url>
+        </repository>
+    </distributionManagement>
+
+
 </project>
