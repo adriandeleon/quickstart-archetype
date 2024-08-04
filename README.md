@@ -30,14 +30,7 @@ mvn install
 To use the archetype, run the following:
 
 ```shell
-mvn archetype:generate
--DarchetypeGroupId=me.adriandeleon
--DarchetypeArtifactId=quickstart-archetype
--DarchetypeVersion=2.0.8
--DgroupId=org.example
--DartifactId=myApp
--Dversion=1.0.0-SNAPSHOT
+mvn archetype:generate -DarchetypeGroupId=me.adriandeleon -DarchetypeArtifactId=quickstart-archetype -DarchetypeVersion=2.0.8 -DgroupId=org.example -DartifactId=myApp -Dversion=1.0.0-SNAPSHOT
 ```
-
 
 You can also just run `mvn archetype:generate` and follow the interactive prompts.
