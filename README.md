@@ -11,7 +11,7 @@ This particular _quickstart-archetype_ will set up a new Java 21 maven project w
 
 It will also add Docker support (using Alpaquita liberica-runtime-container JRE 21), and native image compilation using the native-maven-plugin and GraalVM. The Modernizer maven plugin will mark places in your code that could be updated to use new java features.
 
-Latest version: 2.0.7
+Latest version: 2.0.8
 
 A simple but opinionated quickstart archetype with the following libraries:
 * [Lombok](https://projectlombok.org/)
@@ -20,6 +20,7 @@ A simple but opinionated quickstart archetype with the following libraries:
 * [assertj](https://assertj.github.io/doc/)
 * [log4j](https://logging.apache.org/log4j/2.x/)
 * [modernizer](https://github.com/gaul/modernizer-maven-plugin)
+* [jspecify](https://jspecify.dev/)
 
 install by running:
 ```shell
@@ -32,7 +33,7 @@ To use the archetype, run the following:
 mvn archetype:generate
 -DarchetypeGroupId=me.adriandeleon
 -DarchetypeArtifactId=quickstart-archetype
--DarchetypeVersion=2.0.7
+-DarchetypeVersion=2.0.8
 -DgroupId=org.example
 -DartifactId=myApp
 -Dversion=1.0.0-SNAPSHOT
