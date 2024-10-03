@@ -7,30 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.9] - 2024-10-3
+
+### Added
+- jshell maven plugin. 
+
+
 ## [2.0.6] - 2023-10-30
 
-### Added
 
--
-
-### Fixed
-
--
-
-### Changed
-
-- Upgrade dependencies: Ruby 3.2.1, Middleman, etc.
-
-### Removed
-
--
-
-## [2.0.5] - 2019-02-15
-
-### Added
-
-- Danish translation (#297).
-
-### Fixed
-
-- Italian translation (#332).
