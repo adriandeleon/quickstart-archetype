@@ -263,7 +263,12 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-project-info-reports-plugin</artifactId>
-                    <version>3.4.5</version>
+                    <version>3.6.2</version>
+                </plugin>
+                <plugin>
+                    <groupId>com.github.johnpoth</groupId>
+                    <artifactId>jshell-maven-plugin</artifactId>
+                    <version>1.4</version>
                 </plugin>
                 <!-- https://mvnrepository.com/artifact/com.github.akman/jlink-maven-plugin -->
 <!--                <dependency>-->
